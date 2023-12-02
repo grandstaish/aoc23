@@ -21,7 +21,7 @@ var words = []string{
 }
 
 func main() {
-	file, _ := os.Open("q1.txt")
+	file, _ := os.Open("q01/input.txt")
 	defer file.Close()
 
 	start := time.Now()
